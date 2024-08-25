@@ -9,9 +9,9 @@ CORS(app)
 def bfhl():
     if request.method == 'POST':
         data = request.json.get('data', [])
-        user_id = "aman_srivastava_26052002"
-        email = "aman.srivastava2021@vitstudent.ac.in"
-        roll_number = "21BCE0777"
+        user_id = "krishnan_vs_05122003"
+        email = "krishnan.vs2021@vitstudent.ac.in"
+        roll_number = "21BIT0662"
 
         numbers = [item for item in data if item.isdigit()]
         alphabets = [item for item in data if item.isalpha()]
